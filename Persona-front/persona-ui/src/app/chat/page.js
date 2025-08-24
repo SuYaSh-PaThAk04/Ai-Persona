@@ -15,7 +15,7 @@ export default function ChatPage() {
     setIsTyping(true); 
 
     try {
-      const res = await fetch("http://localhost:5000/api/", {
+      const res = await fetch("https://ai-persona-4v5t.onrender.com/api/", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ userId: "123", message: input }),
