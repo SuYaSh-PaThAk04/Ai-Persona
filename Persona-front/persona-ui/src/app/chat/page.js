@@ -76,7 +76,7 @@ export default function ChatPage() {
                 className="rounded-full shadow-lg border-2 border-purple-500/50 mb-6"
               />
               <h2 className="text-2xl font-bold text-white mb-2">Start a conversation</h2>
-              <p className="text-slate-400 max-w-md">Ask me anything about web development, programming, or technology. I'm here to help!</p>
+              <p className="text-slate-400 max-w-md">Ask me anything about web development, programming, or technology</p>
             </div>
           )}
 
