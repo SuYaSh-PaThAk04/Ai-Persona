@@ -130,11 +130,11 @@ export default function HomePage() {
           <motion.div
             key={i}
             className="absolute w-1 h-1 bg-purple-400/30 rounded-full"
-            initial={{
-              x: Math.random() * window.innerWidth,
-              y: Math.random() * window.innerHeight,
-              opacity: 0
-            }}
+        initial={{
+  x: typeof window !== "undefined" ? Math.random() * window.innerWidth : 0,
+  y: typeof window !== "undefined" ? Math.random() * window.innerHeight : 0,
+  opacity: 0
+}}
             animate={{
               y: [null, -100, -200],
               opacity: [0, 1, 0]
