@@ -47,13 +47,13 @@ export default function ChatPage() {
       <div className="relative z-10 border-b border-slate-800/50 bg-slate-900/50 backdrop-blur-xl">
         <div className="max-w-4xl mx-auto px-6 py-4 flex items-center gap-4">
           <div className="relative">
-            <Image
-              src="/persona.png"
-              alt="Hitesh Choudhary"
-              width={48}
-              height={48}
-              className="rounded-full shadow-lg border-2 border-purple-500/50"
-            />
+       <Image
+    src="/persona.png"
+    alt="Hitesh Choudhary"
+    width={32}
+    height={32}
+    className="rounded-full shadow-md flex-shrink-0 h-8 w-8"
+/>
             <div className="absolute -bottom-1 -right-1 w-4 h-4 bg-green-500 rounded-full border-2 border-slate-800"></div>
           </div>
           <div>
